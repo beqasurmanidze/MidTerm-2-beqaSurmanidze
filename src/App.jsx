@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import UserList from "./prev";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold text-center">Midterm 2</h1>
-    </>
+    <div>
+      <UserList />
+    </div>
   );
-}
+};
 
 export default App;
