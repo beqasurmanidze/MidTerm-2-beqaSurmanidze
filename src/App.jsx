@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import UserProfile from "./beqa";
 
 const App = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
